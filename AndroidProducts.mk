@@ -11,3 +11,11 @@ COMMON_LUNCH_CHOICES := \
     twrp_uter-user \
     twrp_uter-userdebug \
     twrp_uter-eng
+
+PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/omni_uter.mk
+
+COMMON_LUNCH_CHOICES += \
+    omni_uter-user \
+    omni_uter-userdebug \
+    omni_uter-eng
